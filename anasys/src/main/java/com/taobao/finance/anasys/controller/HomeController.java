@@ -23,6 +23,7 @@ public class HomeController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 
+	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	@ResponseBody
 	public Map<String, Object> home() throws IOException, ParseException {
