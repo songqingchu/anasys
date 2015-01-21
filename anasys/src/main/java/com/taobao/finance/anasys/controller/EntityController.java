@@ -23,6 +23,7 @@ public class EntityController {
 	@ModelAttribute("entity")
 	public MyEntity init(@PathVariable String id) {
 		return null;
+		
 	}
 	
 	@RequestMapping(value="/myentity/{id}", method=RequestMethod.GET)
